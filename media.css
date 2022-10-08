@@ -1,0 +1,53 @@
+@media(max-width: 800px){
+  #header .logo{
+    width:100%;
+  }
+  #header nav{
+    margin-top: 15px;
+    width:100%;
+    font-size: 16px;
+  }
+  .main{
+    margin: 30% auto;
+    height:200px;
+    min-height: 550px;
+    background: transparent;
+    background-position: center;
+    background-image: linear-gradient(120deg,rgba(255,0,55,0.2),rgba(255,25,255,0.3),rgba(0,255,255,0.5));
+  }
+  .main .leftSide{
+    width:100%;
+    color:#1ee;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+  }
+  .main .leftSide h2{
+    color:#1ee;
+    text-shadow: 2px 2px 2px #000;
+  }
+  .course .row .card:nth-child(1),.course .row .card:nth-child(2){
+    margin:5% auto;
+  }
+  .course .row .card:nth-child(3){
+    margin-top: 5%;
+  }
+  .aboutContainer{
+    margin-top: 30%;
+  }
+  .aboutContainer .aboutImg .imgs h2{
+  width:300px;
+  text-align: center;
+  margin-left: -50px;
+}
+.aboutContainer:hover .aboutImg .imgs h2{
+  margin-left: -50px;
+}
+  .aboutContainer:hover .aboutImg .imgs{
+  margin: -20% auto;
+}
+.aboutContainer:hover .aboutImg .imgs ,.aboutContainer:hover .aboutImg .imgs img{
+  border-radius: 20px;
+}
+
+}
