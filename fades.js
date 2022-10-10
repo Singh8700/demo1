@@ -48,12 +48,13 @@ function cards(){
   const Cards = document.querySelectorAll("#card");
   Cards.forEach((items)=>{
     items.addEventListener("mouseenter",()=>{
-        items.style.transform = `perspective(200) translateY(20%) scale(1.2)`;
-        items.style.marginTop=`20%`;
+        items.style.transform = `perspective(200) scale(1.2)`;
+         this.style.marginTop=`-30%`;
+        item.style.marginTop="30%";
     })
     items.addEventListener("mouseleave", () =>{
-      items.style.transform = `perspective(400) translateY(-20%) scale(1)`;
+      items.style.transform = `perspective(400) scale(1)`;
     })
   })
 }
-cards();
+//cards();
