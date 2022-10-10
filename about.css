@@ -124,7 +124,7 @@ body {
     transform: translateY(25%);
   }
 .CardContainer > .card:hover{
-  height:1050px;
+  height:800px;
   font-weight: 500;
 }
 .CardContainer .card .contentBox .btn{
