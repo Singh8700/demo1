@@ -48,11 +48,11 @@ function cards(){
   const Cards = document.querySelectorAll("#card");
   Cards.forEach((items)=>{
     items.addEventListener("mouseenter",()=>{
-        items.style.transform = `scale(1.2)`;
+        items.style.transform = `perspective(200) translateY(20%) scale(1.2)`;
         items.style.marginTop=`20%`;
     })
     items.addEventListener("mouseleave", () =>{
-      items.style.transform = `scale(1)`;
+      items.style.transform = `perspective(400) translateY(-20%) scale(1)`;
     })
   })
 }
