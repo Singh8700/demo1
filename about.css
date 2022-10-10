@@ -1,8 +1,8 @@
 body {
     font-size: 15pt;
 }
-.about{
-width:100%;
+#about{
+width:100vw;
  overflow-x:hidden;
 }
 .CardContainer{
@@ -71,7 +71,7 @@ width:100%;
 .CardContainer .card .contentBox .txt{
   width: 85%;
   margin:auto;
-  transform: translateY(35%);
+  transform: translateY(40%);
   text-align: center;
   font-size: 1rem;
   color:#fff;
@@ -125,7 +125,7 @@ width:100%;
     transform: translateY(33vw);
   }
   .CardContainer .card .contentBox .txt{
-    transform: translateY(30%);
+    transform: translateY(35%);
   }
 .CardContainer > .card:hover{
   height:800px;
