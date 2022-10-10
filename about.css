@@ -20,7 +20,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 .CardContainer > .card:hover{
-  height:800px;
+  height:600px;
 }
 .CardContainer .card > .imgBox{
   position: absolute;
@@ -67,7 +67,7 @@ body {
 .CardContainer .card .contentBox .txt{
   width: 85%;
   margin:auto;
-  transform: translateY(30%);
+  transform: translateY(20vw);
   text-align: center;
   font-size: 1rem;
   color:#fff;
