@@ -119,7 +119,7 @@ width:100vw;
     width:95%;
   }
   .CardContainer #ab{
-    transform: translateY(-20vw);
+    transform: translateY(-50%);
   }
   .CardContainer .card .contentBox h3{
     transform: translateY(33vw);
