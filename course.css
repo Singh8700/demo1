@@ -26,10 +26,10 @@
 }
 
 .course .row .card:nth-child(2n+1){
-  margin-top: -20%;
-}
-.course .row .card:nth-child(3n+1){
   margin-top: 30%;
+}
+.course .row .card:nth-child(0){
+  margin-top: -30%;
 }/*
 .course .row .card:nth-child(3){
   margin-top: -40%;
