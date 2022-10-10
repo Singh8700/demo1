@@ -25,18 +25,18 @@
   
 }
 
-.course .row .card:nth-child(1){
+.course .row .card:nth-child(2n+1){
   margin-top: -20%;
 }
-.course .row .card:nth-child(2){
+.course .row .card:nth-child(3n+1){
   margin-top: 30%;
-}
+}/*
 .course .row .card:nth-child(3){
   margin-top: -40%;
 }
 .course .row .card:nth-child(4){
   margin-top: 10%;
-}
+}*/
 .course .row .card .cardImg{
   width:250px;
   height:200px;
