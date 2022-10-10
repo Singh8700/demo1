@@ -67,7 +67,7 @@ body {
 .CardContainer .card .contentBox .txt{
   width: 85%;
   margin:auto;
-  transform: translateY(20vw);
+  transform: translateY(17vw);
   text-align: center;
   font-size: 1rem;
   color:#fff;
@@ -121,7 +121,7 @@ body {
     transform: translateY(33vw);
   }
   .CardContainer .card .contentBox .txt{
-    transform: translateY(25%);
+    transform: translateY(15vw);
   }
 .CardContainer > .card:hover{
   height:800px;
